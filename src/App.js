@@ -1,11 +1,9 @@
 import './App.css';
-import { Greeting } from './greeting';
-import Box from './box';
+import { List } from './list';
 function App() {
   return (
     <div className="App">
-    <Greeting/>
-    <Box/>
+    <List/>
     </div>
   );
 }
