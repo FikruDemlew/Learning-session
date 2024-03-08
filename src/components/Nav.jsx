@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 export default function Nav() {
   return (
     <div className='flex items-center justify-center font-bold text-2xl gap-20'>
-      
+      //rtcbhyhbvcdfgtyui
          <NavLink to={"/about"}    state={{data:"name"}} 
             className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "border-b-4  border-pink-600" : ""
